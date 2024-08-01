@@ -22,9 +22,7 @@ namespace UserAPI.Models
             string firstName,
             string lastName,
             string zipCode,
-            double income,
-            double incomeVsZipAvg,
-            double incomeVsStateAvg
+            double income
             )
         {
             UserID = userID;
