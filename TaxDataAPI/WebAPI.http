@@ -1,0 +1,7 @@
+@WebAPI_HostAddress = http://localhost:5022
+###
+GET {{WebAPI_HostAddress}}/zipcodedata/
+Accept: application/json
+
+GET {{WebAPI_HostAddress}}/statedata/
+Accept: application/json

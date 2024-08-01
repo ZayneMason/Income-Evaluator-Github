@@ -1,0 +1,30 @@
+<mat-toolbar class="topnav">
+  <button mat-icon-button (click)="sidenav.toggle()" class="minimal-menu-button" style="background-color: transparent; border: none;">
+    <i class="fa-solid fa-bars fa-xl"></i>
+  </button>
+  <span>Income Evaluator</span>
+  <span class="spacer"></span>
+  <span *ngIf="!isAuthenticated()">
+    <button class="form-button" mat-raised-button style="margin-right: 10%; padding: 5%; color: white;" routerLink="login" href="/login">Login</button>
+    <button class="form-button" mat-raised-button style="margin-right: 10%; padding: 5%; color: white;" routerLink="register" href="/register" onclick="">Register</button>
+  </span>
+  
+  <span *ngIf="isAuthenticated()">
+    <span style="padding-right: 15%;">{{this.localStorage.getItem('username')}}</span>
+    <button mat-raised-button class="form-button" style="color: white;" (click)="signOut()">Sign Out</button>
+  </span>
+  <span style="margin: 1%"></span>
+</mat-toolbar>
+
+<mat-drawer-container class="example-container full-height">
+  <mat-drawer #sidenav mode="side" class="full-height">
+    <mat-nav-list>
+      <a mat-list-item routerLink="">Dashboard</a>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content class="full-height">
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

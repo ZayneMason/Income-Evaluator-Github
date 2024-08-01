@@ -1,0 +1,29 @@
+.agi-card, .total-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Set a fixed height for uniformity */
+  margin: auto;
+  margin-bottom: 200px;  /* Optional: Add some margin for spacing between cards */
+  box-sizing: border-box;
+}
+
+mat-card-content p {
+  margin: 5px 0;
+}
+
+mat-grid-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto !important;
+}
+
+mat-grid-list {
+  width: 100%;
+}
+
+mat-card-header {
+  text-align: center;
+}

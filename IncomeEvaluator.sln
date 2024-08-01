@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAPI", "Users\UserAPI.csproj", "{879BF77D-4667-4503-82E7-824CEF2F5435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxDataAPI", "TaxDataAPI\TaxDataAPI.csproj", "{95FAA02E-A559-4ADA-8CA6-540978BB824E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IncomeEvaluator", "IncomeEvaluator\", "{BD588165-D4ED-4BB5-AEC9-92AF42A51C1A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64537"
+		Debug.AspNetCompiler.PhysicalPath = "IncomeEvaluator\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64537\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64537"
+		Release.AspNetCompiler.PhysicalPath = "IncomeEvaluator\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64537\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64537"
+		SlnRelativePath = "IncomeEvaluator\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879BF77D-4667-4503-82E7-824CEF2F5435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879BF77D-4667-4503-82E7-824CEF2F5435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879BF77D-4667-4503-82E7-824CEF2F5435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879BF77D-4667-4503-82E7-824CEF2F5435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FAA02E-A559-4ADA-8CA6-540978BB824E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FAA02E-A559-4ADA-8CA6-540978BB824E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FAA02E-A559-4ADA-8CA6-540978BB824E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FAA02E-A559-4ADA-8CA6-540978BB824E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD588165-D4ED-4BB5-AEC9-92AF42A51C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD588165-D4ED-4BB5-AEC9-92AF42A51C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD588165-D4ED-4BB5-AEC9-92AF42A51C1A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD588165-D4ED-4BB5-AEC9-92AF42A51C1A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60E04DF1-7FAE-45D8-8754-3F1114A64FF9}
+	EndGlobalSection
+EndGlobal

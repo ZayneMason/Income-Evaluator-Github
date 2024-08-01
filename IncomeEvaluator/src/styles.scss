@@ -1,0 +1,46 @@
+@import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+i {
+  color: var(--mat-primary);
+}
+
+app-root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-drawer-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+mat-drawer {
+  height: 100%;
+}
+
+mat-drawer-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1;
+  padding: 16px;
+}
+

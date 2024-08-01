@@ -1,0 +1,54 @@
+<div class="registration-container">
+  <form class="registration-form" (ngSubmit)="submit()" [formGroup]="form">
+    <mat-card class="registration-card">
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input
+          matInput
+          placeholder="Enter your first name"
+          formControlName="firstName"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input
+          matInput
+          placeholder="Enter your last name"
+          formControlName="lastName"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label>User Name</mat-label>
+        <input
+          matInput
+          placeholder="Enter your username"
+          formControlName="username"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label>Password</mat-label>
+        <input
+          matInput
+          placeholder="Enter your password"
+          formControlName="password"
+          type="password"
+          required
+        />
+      </mat-form-field>
+      <button class="form-button" mat-raised-button color="primary" type="submit" [disabled]="loading || form.invalid">Register</button>
+      <div *ngIf="show" class="success-message">
+        <mat-hint>Registration successful</mat-hint>
+      </div>
+      <div *ngIf="errorMessage" class="error-message">
+        <mat-error>{{ errorMessage }}</mat-error>
+      </div>
+      <div *ngIf="loading" class="loading-indicator">
+        <mat-spinner diameter="30"></mat-spinner> <!-- Angular Material spinner -->
+        <mat-hint>Loading...</mat-hint>
+      </div>
+    </mat-card>
+  </form>
+</div>

@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-07-31T15:03:49.3301383Z"
+    },
+    "mssql1": {
+      "restored": false,
+      "restoreTime": "2024-07-26T03:50:58.6375153Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-07-25T03:49:13.9959733Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "57aba48f-cb7e-40a8-a95d-8f32c5863748"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "centralus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Example"
+    }
+  }
+}
